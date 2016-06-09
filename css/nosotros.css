@@ -1,0 +1,234 @@
+header
+	{
+		margin-bottom: 30px;
+	}
+header h1
+	{
+		text-align: center;
+		color: #192951;
+		font-size: 35px;
+	}
+ul.centrado
+	{
+		text-align: center;
+	}
+ul.centrado li, a /* OJO!!! Las propiedades se aplican DOBLE: a los <li> y a los <a> dentro de <li>*/
+	{
+		padding: 5px 15px;
+		color: rgb(83, 88, 95);
+		text-decoration: none;
+	}
+a:hover {
+    color: #192951;
+    font-weight: bold;
+    font-size: 20px;
+    	}
+	/* Terminan propiedades de header*/
+section.principal /* Inicia propiedades de section.principal*/
+	{}
+.HeBallet
+	{
+		background-image: url(../img/dance_7.jpg);
+		background-position: top left;
+		width: 1350px;
+		height: 480px;
+		position: relative;
+	}
+.SOBRENOSOTROS
+	{
+		max-width: 520px;
+		background-color: black;
+		opacity: 0.6;
+		color: #ffffff;
+		position: relative;
+		top: 200px;
+	}
+.SOBRENOSOTROS h2
+
+	{
+		font-size: 31px;
+		width: 380px;
+		position: relative;
+		text-align: center;
+		margin-top: 20px;
+		padding: 20px 0;
+	}
+.SOBRENOSOTROS p
+	{
+		font-size: 15px;
+		text-align: center;
+		width: 350px;
+		margin-bottom: 50px;
+
+	}
+/* Terminan propiedades de section.principal*/
+
+/* Inicia propiedades de section.Pilares*/
+section.Pilares
+	{
+		width: 1350px;
+		background-image: url(../img/cubes.png);
+		color: gray;
+		text-align: center;
+	}
+h2
+	{
+		font-size: 25px;
+		margin-top: 125px;
+	}
+hr
+	{
+		height: 5px;
+		width: 280px;
+		position: relative;
+		margin: 5px 0;
+	}
+p
+	{
+		font-size: 15px;
+		margin-top: 5px;
+		margin-bottom: 120px;
+	}
+.Pilar1, .Pilar2, .Pilar3
+	{
+		margin-top: 120px;
+	}
+
+/* Terminan propiedades de section.Pilares*/
+
+/* Inicia propiedades de section.INSTRUCTORES*/
+section.INSTRUCTORES
+	{
+		width: 1350px;
+		background-color: white;
+		text-align: left;
+	}
+section.INSTRUCTORES h2
+	{
+		font-size: 35px;
+		margin-top: 55px;
+		margin-bottom: 55px;
+		text-align: center !important;
+	}
+section.INSTRUCTORES h3
+	{
+		font-size: 20px;
+		margin-top: 25px;
+		margin-bottom: 5px;
+	}
+section.INSTRUCTORES p
+	{
+		font-size: 13px;
+		margin-top: 5px;
+		margin-bottom: 120px;
+	}
+
+.IMG-Profile
+	{
+	width:  230px !important;
+	height: 200px !important;
+	}
+.INST-Profile
+	{
+		background-image: url();
+	}
+/* Terminan propiedades de section.INSTRUCTORES*/
+
+/* Inicia propiedades de section.Frase*/
+section.Frase
+	{
+		width: 1350px;
+		background-image: url(../img/cubes.png);
+	}
+section.Frase div.col-12
+	{
+		text-align: center;
+		margin-top: 70px;
+	}
+i
+	{
+		font-size: 37px;
+		position: relative;
+		text-align: center;
+		background-image: url(../img/cubes.png);
+	}
+
+/* Terminanpropiedades de section.Frase*/
+
+/* Inicia propiedades de section Contactanos*/
+
+section.Contactanos
+	{
+		background-image: url(../img/shoes_1.jpg);
+		width: 1353px;
+		height: 470px;
+		background-repeat: no-repeat;
+		background-position: right;
+	}
+h4
+	{
+		font-size: 37px;
+		color: #192951;
+		margin-bottom: 40px;
+	}
+div.col-6 > div
+	{
+		border: black solid 2px;
+		width: 479px;
+		height: 35px;
+		vertical-align: center;
+		opacity: 0.6;
+	}
+.Nombre, .Email, .Mensaje, .ENVIAR
+	{
+		position: relative;
+		margin: 15px;
+		padding: 5px;
+	}
+.Nombre
+	{
+
+	}	
+.Email
+	{
+		position: relative;
+	}
+.Mensaje
+	{
+		position: relative;
+		height: 90px !important;
+	}
+.ENVIAR
+	{
+		position: relative;
+		text-align: center;
+		background-color: #192951;
+		color: white;
+		opacity: 1 !important;
+		height: 50px !important;
+	}
+.ENVIAR p
+	{
+		vertical-align: center;
+		padding-top: 10px;
+	}
+.ENVIAR:hover	
+	{
+		background-color: gray;
+	}
+/* Terminan propiedades de section Contactanos*/
+footer
+	{
+		background-color: #192951;
+		color: white;
+	}
+footer p
+	{
+		margin-left: 20px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+.span
+	{
+		display: inline-block;
+	}

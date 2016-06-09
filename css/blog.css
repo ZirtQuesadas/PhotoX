@@ -1,0 +1,118 @@
+header
+	{
+		margin-bottom: 30px;
+	}
+header h1
+	{
+		text-align: center;
+		color: #192951;
+		font-size: 35px;
+	}
+ul.centrado
+	{
+		text-align: center;
+	}
+ul.centrado li, a /* OJO!!! Las propiedades se aplican DOBLE: a los <li> y a los <a> dentro de <li>*/
+	{
+		padding: 5px 15px;
+		color: rgb(83, 88, 95);
+		text-decoration: none;
+	}
+a:hover 
+	{
+	    color: #192951;
+	    font-weight: bold;
+	    font-size: 20px;
+	}
+
+		/* Terminan propiedades de header*/
+
+section.Blog /*section.Blog es la única sección central*/
+
+	{
+		background-color: rgb(244, 244, 244);
+	}
+
+
+
+/* Inicia propiedades de section Contactanos*/
+section.Contactanos
+	{
+		background-image: url(../img/shoes_1.jpg);
+		width: 1353px;
+		height: 470px;
+		background-repeat: no-repeat;
+		background-position: right;
+	}
+h4
+	{
+		font-size: 37px;
+		color: #192951;
+		margin-bottom: 40px;
+	}
+div.col-6 > div
+	{
+		border: black solid 2px;
+		width: 479px;
+		height: 35px;
+		vertical-align: center;
+		opacity: 0.6;
+	}
+.Nombre, .Email, .Mensaje, .ENVIAR
+	{
+		position: relative;
+		margin: 15px;
+		padding: 5px;
+	}
+.Nombre
+	{
+
+	}	
+.Email
+	{
+		position: relative;
+	}
+.Mensaje
+	{
+		position: relative;
+		height: 90px !important;
+	}
+.ENVIAR
+	{
+		position: relative;
+		text-align: center;
+		background-color: #192951;
+		color: white;
+		opacity: 1 !important;
+		height: 50px !important;
+	}
+.ENVIAR p
+	{
+		vertical-align: center;
+		padding-top: 10px;
+	}
+.ENVIAR:hover	
+	{
+		background-color: gray;
+	}
+/* Terminan propiedades de section Contactanos*/
+footer
+	{
+		background-color: #192951;
+		color: white;
+	}
+footer p
+	{
+		margin-left: 20px;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+
+
+
+.span
+	{
+		display: inline-block;
+	}
+
+		/* Inserta tu codigo aqui */
